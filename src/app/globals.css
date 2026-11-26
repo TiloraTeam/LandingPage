@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "../config/colors.css";
+@import "../styles/site.css";
+
+/* Brand colours as Tailwind utilities (bg-navy, text-yellow, ...). Values still come from colors.css */
+@theme inline {
+  --color-navy: var(--navy);
+  --color-yellow: var(--yellow);
+  --color-blue: var(--blue);
+  --color-cream: var(--cream);
+  --color-white: var(--white);
+  --color-line: var(--line);
+  --color-soft: var(--soft);
+  --font-sans: "Space Grotesk", Vazirmatn, sans-serif;
+}

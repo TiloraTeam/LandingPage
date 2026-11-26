@@ -1,0 +1,19 @@
+/* TILORA colour tokens — the single source of truth for every colour in the design.
+   Change a value here and the whole site updates. Nothing else may contain a hex colour.
+   Official brand colours come from the Tilora brand archive; the neutrals are the only additions. */
+:root{
+  /* Official palette */
+  --navy:#1E2B4F;     /* primary: text, depth, logo blocks */
+  --yellow:#F5B800;   /* accent: logo circle, CTAs */
+  --blue:#DCEBF7;     /* pale blue: supporting sections */
+  --cream:#F8F1E2;    /* warm background */
+  --white:#FFFDF8;    /* main light surface */
+  /* Added neutrals */
+  --navy2:#2A3A66;    /* raised navy surface */
+  --line:#E6DCC4;     /* borders (taken from the brand file) */
+  --soft:#4B5878;     /* secondary text */
+  --danger:#B3261E;   /* form errors */
+  /* Channel versions, used for transparent tints: rgb(var(--navy-rgb) / .2) */
+  --navy-rgb:30 43 79;
+  --white-rgb:255 253 248;
+}
