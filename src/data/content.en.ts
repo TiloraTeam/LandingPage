@@ -75,8 +75,8 @@ export const en = {
     title: "Let’s build yours.",
     lead: "Tell us what you need. Five people read every message.",
     links: [
-      { l: "Email", v: "hello@your-domain.com" }, { l: "Telegram", v: "@your-handle" },
-      { l: "Instagram", v: "@your-handle" }, { l: "GitHub", v: "github.com/your-org" },
+      { l: "Email", v: "codinext1@gmail.com" }, { l: "Telegram", v: "@your-handle" },
+      { l: "Instagram", v: "@tilora_team" }, { l: "GitHub", v: "github.com/tilorateam" },
     ],
     form: {
       name: "Name", email: "Email", subject: "Subject", message: "Message", send: "Send message",
